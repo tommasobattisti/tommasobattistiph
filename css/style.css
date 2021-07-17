@@ -28,7 +28,6 @@ body {
 }
 
 .homeheader {
-    position: relative;
     height: 100vh;
     background-image: url('../img/spiaggiaPescara.png');
     background-size: cover;
@@ -632,7 +631,7 @@ strong {
 .escltext {
     margin: 0%;
     font-size: 1.4em;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.4em;
 }
 

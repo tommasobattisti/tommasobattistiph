@@ -960,6 +960,9 @@ strong {
     h1 {
         font-size: 14vw;
     }
+    #homeh1 {
+        font-size: 11vw !important;
+    }
     .projexpl {
         display: flex;
         flex-direction: column;
@@ -1371,6 +1374,7 @@ div.leftfooterab:hover p {
 
 
 
+
 article.container-multitext {
     margin-top: 5%;
     margin-left: 55%;
@@ -1379,6 +1383,10 @@ article.container-multitext {
     justify-content: center;
     letter-spacing: 0.2em;
 }
+
+
+
+
 
 .wrapper {
     display: inline-flex;
@@ -1744,6 +1752,9 @@ article.container-multitext {
         margin-left: auto;
         margin-right: auto;
         padding: 0%;
+    }
+    .portfolioimage {
+        margin-bottom: 10%;
     }
 
 

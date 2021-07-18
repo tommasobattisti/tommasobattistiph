@@ -1224,17 +1224,18 @@ strong {
 }
 
 
+.contacth1 {
+    line-height: 1.8em;
+}
+
 .maillink {
     text-decoration: unset;
-    color: white;
-    border-bottom: solid;
-    padding: -10% !important;
-    border-width: 2px;
+    color: #00979E;
 }
 
 .maillink:hover{
     border-bottom: none;
-    color:#00979E;
+    color:white;
     border: none;
 }
 

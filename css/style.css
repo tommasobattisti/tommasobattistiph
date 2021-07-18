@@ -959,9 +959,7 @@ strong {
     h1 {
         font-size: 14vw;
     }
-    #homeh1 {
-        font-size: 11vw !important;
-    }
+
     .projexpl {
         display: flex;
         flex-direction: column;
@@ -1215,7 +1213,7 @@ strong {
 
 .contactheader {
     height: 100vh;
-    background-image: url('../img/Contatto.jpg');
+    background-image: url('../img/ContattoII.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1344,21 +1342,29 @@ strong {
 .sudimetitle h2 {
     font-weight: 200;
     width: 50%;
-    margin-right: 25%;
-    margin-left: 25%;
-    text-align: center;
+    margin-right: 45%;
+    margin-left: 5%;
+    text-align: left;
     font-size: 2.5em;
 }
 .sudimetext {
-    width: 50%;
-    margin-right: 25%;
-    margin-left: 25%;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
     font-weight: 300;
+    line-height: 1.4em;
 }
 
+.sudimetext p strong {
+    font-weight: 500;
+}
+.sudimetext p .strongblue {
+    color: #00979E;
+    font-weight: 500;
+}
 
 
 .leftfooterab p {
@@ -1374,269 +1380,9 @@ div.leftfooterab:hover p {
 
 
 
-article.container-multitext {
-    margin-top: 5%;
-    margin-left: 55%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    letter-spacing: 0.2em;
-}
 
 
 
-
-
-.wrapper {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.wrapper .static-txt {
-    margin-bottom: 0.3vw !important;
-    text-align: right;
-    width: 50%;
-    font-family: 'Montaserrat', sans-serif;
-    color: black;
-    font-size: 2.5vw;
-    font-weight: 300;
-}
-.wrapper .dinamic-txts {
-    margin: 0vw;
-    padding-left: 1%;
-    text-align: left;
-    width: 50%;
-    height: 3vw;
-    line-height: 3.1vw;
-    overflow: hidden;
-}
-
-.dinamic-txts li {
-    list-style: none;
-    font-family: 'Montserrat', sans-serif;
-    color: #00979e;
-    font-size: 2vw;
-    font-weight: 400;
-    position: relative;
-    top: 0;
-    -webkit-animation: slide 3s steps(2) infinite;
-    -moz-animation: slide 3s steps(2) infinite;
-    -o-animation: slide 3s steps(2) infinite;
-    -ms-animation: slide 3s steps(2) infinite;
-    animation: slide 3s steps(2) infinite;
-}
-
-
-@-webkit-keyframes slide {
-    100%{
-        top: -6.1vw;
-    }
-}
-@-moz-keyframes slide {
-    100%{
-        top: -6.1vw;
-    }
-}
-@-o-keyframes slide {
-    100%{
-        top: -6.1vw;
-    }
-}
-@-ms-keyframes slide {
-    100%{
-        top: -6.1vw;
-    }
-}
-@keyframes slide {
-    100%{
-        top: -6.1vw;
-    }
-}
-
-.dinamic-txts li span {
-    position: relative;
-}
-.dinamic-txts li span::after{
-    content: "" ;
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: whitesmoke;
-    border-left: 2px solid #00979e;
-    -webkit-animation: typing 1.5s steps(7) infinite;
-    -moz-animation: typing 1.5s steps(7) infinite;
-    -o-animation: typing 1.5s steps(7) infinite;
-    -ms-animation: typing 1.5s steps(7) infinite;
-    animation: typing 1.5s steps(7) infinite;
-}
-@-webkit-keyframes typing {
-    100%{
-        left: 100%;
-        margin: 0 -3.5vw 0 2vw;
-    }
-}
-@-moz-keyframes typing {
-    100%{
-        left: 100%;
-        margin: 0 -3.5vw 0 2vw;
-    }
-}
-@-o-keyframes typing {
-    100%{
-        left: 100%;
-        margin: 0 -3.5vw 0 2vw;
-    }
-}
-@-ms-keyframes typing {
-    100%{
-        left: 100%;
-        margin: 0 -3.5vw 0 2vw;
-    }
-}
-@keyframes typing {
-    100%{
-        left: 100%;
-        margin: 0 -3.5vw 0 2vw;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1199.98px) {
-    article.container-multitext {
-        margin-top: -1%;
-    }
-
-    .wrapper .dinamic-txts {
-        margin-top: 0.1vw;
-        height: 2.9vw;
-        line-height: 3vw;
-    }
-
-    @-webkit-keyframes slide {
-        100%{
-            top: -5.9vw;
-        }
-    }
-    @-moz-keyframes slide {
-        100%{
-            top: -5.9vw;
-        }
-    }
-    @-o-keyframes slide {
-        100%{
-            top: -5.9vw;
-        }
-    }
-    @-ms-keyframes slide {
-        100%{
-            top: -5.9vw;
-        }
-    }
-    @keyframes slide {
-        100%{
-            top: -5.9vw;
-        }
-    }
-
-}
-
-
-
-@media (max-width: 1079.98px) {
-    article.container-multitext {
-        margin-top: -2.6%;
-    }
-    .wrapper .dinamic-txts {
-        margin-top: -0.1vw;
-        height: 2.9vw;
-        line-height: 3vw;
-    }
-
-    @-webkit-keyframes slide {
-        100%{
-            top: -6vw;
-        }
-    }
-    @-moz-keyframes slide {
-        100%{
-            top: -6vw;
-        }
-    }
-    @-o-keyframes slide {
-        100%{
-            top: -6vw;
-        }
-    }
-    @-ms-keyframes slide {
-        100%{
-            top: -6vw;
-        }
-    }
-    @keyframes slide {
-        100%{
-            top: -6vw;
-        }
-    }
-}
-
-
-@media (max-width: 959.98px) {
-
-    article.container-multitext {
-        margin-top: -3.1%;
-    }
-
-    .wrapper .dinamic-txts {
-        height: 2.9vw;
-        line-height: 3vw;
-    }
-
-    @-webkit-keyframes slide {
-        100%{
-            top: -5.8vw;
-        }
-    }
-    @-moz-keyframes slide {
-        100%{
-            top: -5.8vw;
-        }
-    }
-    @-o-keyframes slide {
-        100%{
-            top: -5.8vw;
-        }
-    }
-        
-    @keyframes slide {
-        100%{
-            top: -5.8vw;
-            }
-        }
-    @keyframes slide {
-        100%{
-            top: -5.8vw;
-        }
-    }
-}
 
 
 
@@ -1668,62 +1414,25 @@ article.container-multitext {
     .sudimetitle h2 {
         margin: 0%;
         width: 100%;
-        text-align: right;
+        text-align: left;
     }
     .sudimetext {
         margin: 0%;
         width: 100%;
-        text-align: right;
+        text-align: left;
         font-family: 'Montserrat', sans-serif;
     }
     .sudime {
-        width: 40%;
-        margin-top: -20% !important;
-        margin-right: 50%;
-        margin-left: 10%;
+        width: 90%;
+        margin-top: -5% !important;
+        margin-right: auto;
+        margin-left: auto;
     }
     .sudimetext {
         font-size: 0.8em;
     }
     .sudimetitle h2 {
         font-size: 2em;
-    }
-
-    article.container-multitext {
-        width: 40%;
-        margin-right: 10%;
-        margin-top: -5%;
-    }
-    .wrapper .dinamic-txts {
-        margin-top: -0.1px;
-        height: 2.9vw;
-        line-height: 3vw;
-    }
-
-    @-webkit-keyframes slide {
-        100%{
-            top: -5.8vw;
-        }
-    }
-    @-moz-keyframes slide {
-        100%{
-            top: -5.8vw;
-        }
-    }
-    @-o-keyframes slide {
-        100%{
-            top: -5.8vw;
-        }
-    }
-    @-ms-keyframes slide {
-        100%{
-            top: -5.8vw;
-        }
-    }
-    @keyframes slide {
-        100%{
-            top: -5.8vw;
-        }
     }
 }
 
@@ -1742,8 +1451,14 @@ article.container-multitext {
     .contactfooter {
         margin: 0% 2.5% 0% 0%;
     }
+    .bannerabout {
+        height: 50vh;
+    }
     .title {
         padding-top: 4%;
+    }
+    .sudimetitle h2 {
+        font-size: 1.5em;
     }
     .portfoliocontainer {
         column-count: 1;
@@ -1755,9 +1470,6 @@ article.container-multitext {
     .portfolioimage {
         margin-bottom: 10%;
     }
-
-
-
 
     .containerfooter {
         height: 20vh;
@@ -1774,53 +1486,8 @@ article.container-multitext {
         font-size: 2vw;
     }
     .sudime {
-        margin-top: -30% !important;
+        margin-top: -20% !important;
     }
-
-    article.container-multitext {
-        margin-top: 0%;
-    }
-
-    .wrapper .static-txt {
-        font-size: 2.5vw;
-        font-weight: 300;
-    }
-    .wrapper .dinamic-txts {
-        height: 3vw;
-        line-height: 3.1vw;
-    }
-    
-    .dinamic-txts li {
-        font-size: 2vw;
-        font-weight: 400;
-    }
-    
-    @-webkit-keyframes slide {
-        100%{
-            top: -6vw;
-        }
-    }
-    @-moz-keyframes slide {
-        100%{
-            top: -6vw;
-        }
-    }
-    @-o-keyframes slide {
-        100%{
-            top: -6vw;
-        }
-    }
-    @-ms-keyframes slide {
-        100%{
-            top: -6vw;
-        }
-    }
-    @keyframes slide {
-        100%{
-            top: -6vw;
-        }
-    }
-    
 }
 
 
@@ -1855,38 +1522,7 @@ article.container-multitext {
         margin-bottom: 5% !important;
     }
     .sudime {
-        margin-top: -40% !important;
-    }
-    article.container-multitext {
-        margin-top: 7%;
-    }
-    .wrapper .dinamic-txts {
-        margin-top: 1.3%;
-    }
-    @-webkit-keyframes slide {
-        100%{
-            top: -5.8vw;
-        }
-    }
-    @-moz-keyframes slide {
-        100%{
-            top: -5.8vw;
-        }
-    }
-    @-o-keyframes slide {
-        100%{
-            top: -5.8vw;
-        }
-    }
-    @-ms-keyframes slide {
-        100%{
-            top: -5.8vw;
-        }
-    }
-    @keyframes slide {
-        100%{
-            top: -5.8vw;
-        }
+        margin-top: -25% !important;
     }
 }
 
@@ -1896,13 +1532,7 @@ article.container-multitext {
         height: 15vh
     }
     .sudime {
-        margin-top: -40% !important;
-    }
-    article.container-multitext {
-        margin-top: -10%;
-    }
-    .wrapper .dinamic-txts {
-        margin-top: -0.7%;
+        margin-top: -25% !important;
     }
 }
 
@@ -1912,38 +1542,24 @@ article.container-multitext {
         max-width: 100%;
     }
     .sudime {
-        margin-top: -47% !important;
+        margin-top: -30% !important;
     }
-    article.container-multitext {
-        margin-top: 5%;
-    }
-    .wrapper .dinamic-txts {
-        margin-top: -0.5%;
-    }
-    @-webkit-keyframes slide {
-        100%{
-            top: -6vw;
-        }
-    }
-    @-moz-keyframes slide {
-        100%{
-            top: -6vw;
-        }
-    }
-    @-o-keyframes slide {
-        100%{
-            top: -6vw;
-        }
-    }
-    @-ms-keyframes slide {
-        100%{
-            top: -6vw;
-        }
-    }
-    @keyframes slide {
-        100%{
-            top: -6vw;
-        }
+}
+
+@media (max-width: 321.98px) {
+
+    nav .linkbox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: normal;
+        justify-content: normal;
+        align-items: normal;
+        position: relative;
+        padding-top: 3%;
+        padding-right: 0%;
+        padding-bottom: 0%;
+        padding-left: 2%;
     }
 }
 

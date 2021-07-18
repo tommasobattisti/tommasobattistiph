@@ -41,7 +41,9 @@ body {
 nav {
     width: 100%;    
     position: fixed;
+    top: 0;
     z-index:1;
+    transition: top 0.3s;
 }
 
 .linkbox{
@@ -753,7 +755,7 @@ strong {
     flex-wrap: nowrap;
     justify-content: space-between;
     width: 100%;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -1098,7 +1100,23 @@ strong {
 
 
     .ipsdoubleimgcontainer {
-        width: 90%;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ipsdoubleimgleft {
+        padding: 0%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 12%;
+    }
+    .ipsdoubleimgright {
+        padding: 0%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1113,7 +1131,7 @@ strong {
         margin-right: auto;
     }
     .ipscontainerbottomleft {
-        width: 70%;
+        width: 90%;
         padding: 0%;
         margin-left: auto;
         margin-right: auto;
@@ -1145,14 +1163,14 @@ strong {
         padding: 0%;
     }
     .inverseipscontainerbottomright {
-        width: 70%;
+        width: 90%;
         padding: 0%;
         margin-left: auto;
         margin-right: auto;
     }
 
     .singleorizimg {
-        width: 80%;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1523,7 +1541,7 @@ div.leftfooterab:hover p {
         margin-bottom: 5% !important;
     }
     .sudime {
-        margin-top: -25% !important;
+        margin-top: -15% !important;
     }
 }
 
@@ -1532,18 +1550,12 @@ div.leftfooterab:hover p {
     .containerfooter {
         height: 15vh
     }
-    .sudime {
-        margin-top: -25% !important;
-    }
 }
 
 
 @media (max-width: 360.98px) {
     body {
         max-width: 100%;
-    }
-    .sudime {
-        margin-top: -30% !important;
     }
 }
 

@@ -1,13 +1,13 @@
 body {
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
     margin: 0% !important;
     padding: 0% !important;
     font-family: 'Cormorant Garamond', serif;    
 }
 ::selection {
     color: white;
-    background: #00979E;
+    background: #00979e;
 }
 ::-moz-selection {
     color: white;
@@ -454,7 +454,7 @@ div.rightfooter:hover p {
 
 .projectslist li {
     margin: 0%;
-    color: whitesmoke;
+    color: white;
     font-size: 3vw;
     letter-spacing: 0.1em;
 }

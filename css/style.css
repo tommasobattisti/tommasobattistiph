@@ -58,7 +58,9 @@ body {
     letter-spacing: 0.2vw;
     text-align: center;
 }
-.abh2 {
+.docudivconth2 {
+    width: 100%;
+    text-align: center;
     margin-bottom: 5%;
 }
 .docuh3 {
@@ -380,7 +382,7 @@ footer {
 }
 .continue a {
     color: black;
-    text-decoration-color: #00979e;
+    text-decoration: underline #00979e;
 }
 .continue a:hover {
     color: #00979e;

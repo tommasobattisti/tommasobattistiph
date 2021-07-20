@@ -26,6 +26,9 @@ body {
         font-size: 0.3em;
     }
 }
+#progettih1 {
+    display: none;
+}
 
 .docuh1 {
     color: black;

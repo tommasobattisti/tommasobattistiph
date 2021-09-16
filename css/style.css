@@ -318,6 +318,7 @@ footer {
     text-decoration: none;
     color: black;
     transition: 0.25s ease-in-out;
+    text-decoration: underline #00979E;
 }
 .contactfooter a:hover {
     text-decoration: none;
@@ -349,6 +350,7 @@ footer {
     letter-spacing: 0.1em;
     color: black;
     transition: 0.25s ease-in-out;
+    text-decoration: underline #00979E;
 }
 .coverflickr2 {
     margin-bottom: 2%;
@@ -359,6 +361,7 @@ footer {
     letter-spacing: 0.1em;
     color: black;
     transition: 0.25s ease-in-out;
+    text-decoration: underline #00979E;
 }
 #coverinstagram2:hover {
     text-decoration: none;

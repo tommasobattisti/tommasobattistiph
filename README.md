@@ -1,2 +1,2 @@
-# Tommaso-Battisti
-The code of my personal Web site
+# Tommaso Battisti
+The code of my photography Website

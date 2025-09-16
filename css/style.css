@@ -124,7 +124,7 @@ body {
 }
 
 .homeheader {
-    height: 100vh;
+    height: 100dvh;
     background-image: url('../img/spiaggiaPescara.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -167,7 +167,7 @@ nav {
 }
 
 .h1container {
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -518,7 +518,7 @@ div.rightfooter:hover p {
 /* PROJECTS PAGE */
 
 .projheader {
-    height: 100vh;
+    height: 100dvh;
     background-image: url('../img/alberiproj.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -527,7 +527,7 @@ div.rightfooter:hover p {
 
 .projectslistcontainer {
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
 }
 
 .projectslistcontainer ul {
@@ -588,7 +588,7 @@ div.rightfooter:hover p {
 
 .insideprojheader {
     position: relative;
-    height: 100vh;
+    height: 100dvh;
 }
 .projheadertitlecont {
     display: flex;
@@ -1330,7 +1330,7 @@ strong {
 /* CONTACT PAGE */
 
 .contactheader {
-    height: 100vh;
+    height: 100dvh;
     background-image: url('../img/ContattoII.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -1367,7 +1367,7 @@ strong {
 
 
 .aboutheader {
-    height: 100vh;
+    height: 100dvh;
     background-image: url('../img/Giovanni_retrotesta_sfondo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
